@@ -49,7 +49,7 @@ export const AboutMe = () => {
                             <div className="bg-neutral-900 rounded-2xl p-8">
                                 <div className="text-center space-y-4">
                                     <Avatar className="w-24 h-24 mx-auto">
-                                        <AvatarImage src="/placeholder.svg?height=96&width=96" />
+                                        <AvatarImage src="/profile.jpg?height=96&width=96" />
                                         <AvatarFallback className="text-2xl bg-gradient-to-r from-blue-600 to-purple-600">
                                             FD
                                         </AvatarFallback>
