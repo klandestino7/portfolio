@@ -7,10 +7,10 @@ export const OfferSection = () => {
 
     return (
 
-        <section className="py-20 bg-gradient-to-r from-blue-900/30 to-purple-900/30">
+        <section className="py-20 bg-gradient-to-r from-blue-900/30 to-purple-900/30" id="plans">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <div className="mb-12">
-                    <Badge className="bg-red-600 text-white mb-4 animate-pulse">🔥 OFERTA ESPECIAL - ÚLTIMAS HORAS</Badge>
+                    <Badge className="bg-red-600 text-white mb-4 animate-pulse">🔥 OFERTA ESPECIAL </Badge>
                     <h2 className="text-4xl font-bold mb-6">
                         Escolha o Plano Ideal
                         <br />
@@ -54,9 +54,11 @@ export const OfferSection = () => {
                                 </li>
                             </ul>
 
-                            <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                                QUERO APENAS O CURSO
-                            </Button>
+                            <a href={process.env.CURSO_COMPLETO_LINK} target="_blank">
+                                <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
+                                    QUERO APENAS O CURSO
+                                </Button>
+                            </a>
                         </CardContent>
                     </Card>
 
@@ -96,23 +98,25 @@ export const OfferSection = () => {
                                 </li>
                             </ul>
 
-                            <Button className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700">
-                                QUERO O PACOTE COMPLETO
-                            </Button>
+                            <a href={process.env.CURSO_COMPLETO_LINK} target="_blank">
+                                <Button className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700">
+                                    QUERO O PACOTE COMPLETO
+                                </Button>
+                            </a>
                         </CardContent>
                     </Card>
                 </div>
 
-                <div className="mt-8 text-center">
+                {/* <div className="mt-8 text-center">
                     <div className="bg-red-600 text-white p-4 rounded-lg mb-6 inline-block">
                         <div className="text-lg font-bold">⏰ OFERTA EXPIRA EM:</div>
-                        <div className="text-2xl font-mono">01:45:33</div>
+                        <div className="text-2xl font-mono"> 31/08/2025 </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="text-center mt-6">
                     <p className="text-neutral-400 mb-4">🔒 Pagamento 100% seguro • Acesso imediato após a compra</p>
-                    <p className="text-red-400 font-semibold">⚠️ Restam apenas 17 vagas para esta turma</p>
+                    {/* <p className="text-red-400 font-semibold">⚠️ Restam apenas 17 vagas para esta turma</p> */}
                 </div>
             </div>
         </section>

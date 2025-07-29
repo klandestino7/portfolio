@@ -22,7 +22,7 @@ export const HeroSection = () => {
                 </div>
 
                 {/* Video Player */}
-                <div className="relative max-w-4xl mx-auto mb-12">
+                {/* <div className="relative max-w-4xl mx-auto mb-12">
                     <div className="bg-black rounded-2xl overflow-hidden shadow-2xl">
                         <div className="aspect-video bg-gradient-to-br from-neutral-800 to-neutral-900 flex items-center justify-center relative">
                             <div className="absolute inset-0 bg-black/50"></div>
@@ -39,8 +39,7 @@ export const HeroSection = () => {
                         </div>
                     </div>
 
-                    {/* Video Stats */}
-                    {/* <div className="flex justify-center space-x-8 mt-6 text-sm text-neutral-400">
+                    <div className="flex justify-center space-x-8 mt-6 text-sm text-neutral-400">
                         <div className="flex items-center space-x-2">
                             <Users className="w-4 h-4" />
                             <span>1.843 assistindo agora</span>
@@ -49,19 +48,22 @@ export const HeroSection = () => {
                             <Clock className="w-4 h-4" />
                             <span>Termina em 1h 45min</span>
                         </div>
-                    </div> */}
-                </div>
+                    </div>
+                </div> */}
 
                 {/* CTA Below Video */}
                 <div className="text-center">
-                    <Button
-                        size="lg"
-                        className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-xl px-12 py-4 mb-4"
-                    >
-                        QUERO GARANTIR MINHA VAGA AGORA
-                        <ArrowRight className="ml-2 w-5 h-5" />
-                    </Button>
-                    <p className="text-neutral-400 text-sm">⚡ Últimas 17 vagas disponíveis • Oferta expira em 1h 45min</p>
+                    <a href={"#plans"} >
+                        <Button
+                            size="lg"
+                            className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-xl px-12 py-4 mb-4"
+                        >
+                            QUERO GARANTIR MINHA VAGA AGORA
+                            <ArrowRight className="ml-2 w-5 h-5" />
+                        </Button>
+                    </a>
+
+                    {/* <p className="text-neutral-400 text-sm">⚡ Últimas 17 vagas disponíveis • Oferta expira em 1h 45min</p> */}
                 </div>
             </div>
         </section>

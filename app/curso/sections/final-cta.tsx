@@ -20,8 +20,8 @@ export const FinalCTA = () => {
                         className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-xl py-6"
                     >
                         QUERO APENAS O CURSO
-                        <br />
-                        <span className="text-sm">R$ 297,90</span>
+                        {/* <br /> */}
+                        {/* <span className="text-sm">R$ 297,90</span> */}
                     </Button>
 
                     <Button
@@ -29,15 +29,15 @@ export const FinalCTA = () => {
                         className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-xl py-6"
                     >
                         QUERO O PACOTE COMPLETO
-                        <br />
-                        <span className="text-sm">R$ 495,80</span>
+                        {/* <br /> */}
+                        {/* <span className="text-sm">R$ 495,80</span> */}
                     </Button>
                 </div>
 
                 <div className="text-center space-y-2">
-                    <p className="text-neutral-400">💳 Parcelamento em até 12x sem juros</p>
+                    <p className="text-neutral-400">💳 Parcelamento em até 12x</p>
                     <p className="text-neutral-400">🔒 Compra 100% segura e protegida</p>
-                    <p className="text-red-400 font-semibold">⏰ Oferta expira em: 01:45:33</p>
+                    {/* <p className="text-red-400 font-semibold">⏰ Oferta expira em: 01:45:33</p> */}
                 </div>
             </div>
         </section>

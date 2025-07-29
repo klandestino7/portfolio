@@ -74,16 +74,16 @@ export const Community = () => {
 
                             <div className="grid grid-cols-3 gap-4">
                                 <div className="bg-neutral-800 p-4 rounded-lg text-center">
-                                    <div className="text-2xl font-bold text-green-400">24/7</div>
                                     <div className="text-xs text-neutral-400">Suporte</div>
+                                    <div className="text-2xl font-bold text-green-400">Ativo</div>
                                 </div>
                                 <div className="bg-neutral-800 p-4 rounded-lg text-center">
-                                    <div className="text-2xl font-bold text-green-400">50+</div>
-                                    <div className="text-xs text-neutral-400">Scripts</div>
+                                    <div className="text-2xl font-bold text-green-400">Scripts</div>
+                                    <div className="text-xs text-neutral-400">Exclusivos</div>
                                 </div>
                                 <div className="bg-neutral-800 p-4 rounded-lg text-center">
-                                    <div className="text-2xl font-bold text-green-400">∞</div>
                                     <div className="text-xs text-neutral-400">Acesso</div>
+                                    <div className="text-2xl font-bold text-green-400">Vitalicio</div>
                                 </div>
                             </div>
 
