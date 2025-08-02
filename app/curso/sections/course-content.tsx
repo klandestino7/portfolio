@@ -473,6 +473,8 @@ export const CourseContent = () => {
                 </Tabs>
 
                 <div className="text-center">
+                    
+                    <a href={'#plans'}>
                     <Button
                         size="lg"
                         className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-xl px-12 py-4"
@@ -480,6 +482,7 @@ export const CourseContent = () => {
                         QUERO APRENDER TUDO ISSO AGORA
                         <ArrowRight className="ml-2 w-5 h-5" />
                     </Button>
+                    </a>
                 </div>
             </div>
         </section>

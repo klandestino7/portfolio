@@ -15,23 +15,27 @@ export const FinalCTA = () => {
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
-                    <Button
-                        size="lg"
-                        className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-xl py-6"
-                    >
-                        QUERO APENAS O CURSO
-                        {/* <br /> */}
-                        {/* <span className="text-sm">R$ 297,90</span> */}
-                    </Button>
+                    <a href={process.env.CURSO_LINK} target="_blank">
+                        <Button
+                            size="lg"
+                            className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-xl py-6"
+                        >
+                            QUERO APENAS O CURSO
+                            {/* <br /> */}
+                            {/* <span className="text-sm">R$ 297,90</span> */}
+                        </Button>
+                    </a>
 
-                    <Button
-                        size="lg"
-                        className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-xl py-6"
-                    >
-                        QUERO O PACOTE COMPLETO
-                        {/* <br /> */}
-                        {/* <span className="text-sm">R$ 495,80</span> */}
-                    </Button>
+                    <a href={process.env.CURSO_COMPLETO_LINK} target="_blank">
+                        <Button
+                            size="lg"
+                            className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-xl py-6"
+                        >
+                            QUERO O PACOTE COMPLETO
+                            {/* <br /> */}
+                            {/* <span className="text-sm">R$ 495,80</span> */}
+                        </Button>
+                    </a>
                 </div>
 
                 <div className="text-center space-y-2">

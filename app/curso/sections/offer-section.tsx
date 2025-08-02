@@ -54,7 +54,7 @@ export const OfferSection = () => {
                                 </li>
                             </ul>
 
-                            <a href={process.env.CURSO_COMPLETO_LINK} target="_blank">
+                            <a href={process.env.CURSO_LINK} target="_blank">
                                 <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
                                     QUERO APENAS O CURSO
                                 </Button>
