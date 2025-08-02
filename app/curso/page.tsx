@@ -40,7 +40,7 @@ export default function FiveMCourseVSL() {
             <AboutMe />
 
             {/* Course Content */}
-            <CourseContent />
+            {/* <CourseContent /> */}
 
             {/* Testimonials */}
             {/* <Testimonials /> */}
