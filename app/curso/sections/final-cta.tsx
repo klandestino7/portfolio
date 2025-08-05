@@ -18,7 +18,7 @@ export const FinalCTA = () => {
                     <a href={process.env.CURSO_LINK} target="_blank">
                         <Button
                             size="lg"
-                            className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-xl py-6"
+                            className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 md:text-xl py-6"
                         >
                             QUERO APENAS O CURSO
                             {/* <br /> */}
@@ -29,7 +29,7 @@ export const FinalCTA = () => {
                     <a href={process.env.CURSO_COMPLETO_LINK} target="_blank">
                         <Button
                             size="lg"
-                            className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-xl py-6"
+                            className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 md:text-xl py-6"
                         >
                             QUERO O PACOTE COMPLETO
                             {/* <br /> */}

@@ -60,7 +60,7 @@ export const Community = () => {
                         </div>
                     </div>
 
-                    <div className="bg-gradient-to-br from-green-900/30 to-emerald-900/30 p-8 rounded-2xl">
+                    <div className="hidden md:block bg-gradient-to-br from-green-900/30 to-emerald-900/30 p-8 rounded-2xl">
                         <div className="space-y-6">
                             <div className="flex items-center space-x-4">
                                 <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
