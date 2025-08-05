@@ -8,15 +8,17 @@ export const HeroSection = () => {
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
                     <Badge className="bg-red-600 text-white mb-4 animate-pulse">🔴 AO VIVO - Últimas Vagas Disponíveis</Badge>
-                    <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                        Dominando o FIVEM/REDM
+                    <h1 className="text-4xl  font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                        Do Zero ao Avançado no FIVEM/REDM
                         <br />
-                        <span className="text-white">Ganhe em Dólar Programando</span>
+                        <span className="text-white md:text-6xl">Aprenda a Programar, Criar Scripts e Ganhar em Dólar</span>
                     </h1>
                     <p className="text-xl text-neutral-300 mb-8 max-w-3xl mx-auto">
-                        Aprenda a criar scripts profissionais de FiveM e RedM para{" "}
-                        <span className="text-green-400 font-bold">vender no mercado internacional</span> ou abrir seu próprio
-                        servidor lucrativo. Desenvolvedores FiveM ganham entre{" "}
+                        Nunca programou? Sem problema.
+                        No Dominando o FIVEM/REDM, você vai do básico ao avançado, 
+                        criando scripts profissionais para{" "} <span className="text-green-400 font-bold">vender no mercado internacional</span> ou montar seu {" "} <span className="text-green-400 font-bold">próprio servidor lucrativo</span>.
+                        
+                        Desenvolvedores FiveM ganham entre{" "} 
                         <span className="text-yellow-400 font-bold">$500 - $3000 USD/mês</span> trabalhando de casa.
                     </p>
                 </div>
@@ -56,7 +58,7 @@ export const HeroSection = () => {
                     <a href={"#plans"} >
                         <Button
                             size="lg"
-                            className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-xl px-12 py-4 mb-4"
+                            className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 md:text-xl px-12 py-4 mb-4 text-wrap"
                         >
                             QUERO GARANTIR MINHA VAGA AGORA
                             <ArrowRight className="ml-2 w-5 h-5" />
