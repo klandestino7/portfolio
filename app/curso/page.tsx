@@ -20,10 +20,31 @@ import { FAQ } from "./sections/faq"
 import { FinalCTA } from "./sections/final-cta"
 import { Footer } from "./sections/footer"
 import { Navigation } from "./sections/navigation"
+import { useEffect } from "react"
+import { toast } from "sonner"
+
 
 export default function FiveMCourseVSL() {
+
+    useEffect(() => {
+        setTimeout(() => {
+            toast("Oferta Especial de Lançamento ", {
+                description: "Somente HOJE (08/08) você garante 20% de desconto usando o cupom LANCAMENTO na finalização da compra.",
+                action: {
+                    label: "Copiar cupom",
+                    onClick: () => {
+                        navigator.clipboard.writeText("LANCAMENTO")
+                            .then(() => console.log("Cupom copiado"))
+                            .catch(() => console.log("Erro ao copiar"));
+                    },
+                },
+            })
+        }, 5000)
+    }, [])
+
     return (
         <div className="min-h-screen bg-neutral-900 text-white">
+
             {/* Navigation */}
             {/* <Navigation /> */}
 
