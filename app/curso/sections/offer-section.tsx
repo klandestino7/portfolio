@@ -96,7 +96,7 @@ export const OfferSection = () => {
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <Check className="w-5 h-5 text-green-400" />
-                                    <span className="font-semibold text-green-400">Acesso permanente à comunidade</span>
+                                    <span className="font-semibold text-green-400">Acesso permanente à comunidade no discord</span>
                                 </li>
                             </ul>
 
