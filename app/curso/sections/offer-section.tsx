@@ -34,11 +34,11 @@ export const OfferSection = () => {
                             <ul className="space-y-3 text-sm text-neutral-300">
                                 <li className="flex items-center space-x-3">
                                     <Check className="w-5 h-5 text-green-400" />
-                                    <span>5 módulos completos</span>
+                                    <span>6 módulos completos</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <Check className="w-5 h-5 text-green-400" />
-                                    <span>20+ aulas práticas</span>
+                                    <span>25+ aulas práticas</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <Check className="w-5 h-5 text-green-400" />
