@@ -26,7 +26,7 @@ export const FAQ = () => {
                             Por quanto tempo terei acesso ao curso?
                         </AccordionTrigger>
                         <AccordionContent className="text-neutral-300">
-                            O acesso ao curso é por 365 dias. Já o acesso à Comunidade Master Developers, caso você escolha essa
+                            O acesso ao curso é vitalício. E o acesso à Comunidade Master Developers, caso você escolha essa
                             opção, é permanente.
                         </AccordionContent>
                     </AccordionItem>
@@ -36,7 +36,7 @@ export const FAQ = () => {
                             Qual a diferença entre os dois planos?
                         </AccordionTrigger>
                         <AccordionContent className="text-neutral-300">
-                            O plano básico (R$ 297,90) inclui apenas o curso com acesso por 365 dias. O plano completo (R$ 495,80)
+                            O plano básico (R$ 297,90) inclui apenas o curso com acesso vitalício. O plano completo (R$ 495,80)
                             inclui o curso e também acesso permanente à Comunidade Master Developers, onde você terá suporte direto,
                             conteú permanente à Comunidade Master Developers, onde você terá suporte direto, conteúdos exclusivos,
                             networking com outros desenvolvedores e muito mais.

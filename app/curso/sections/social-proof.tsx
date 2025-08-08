@@ -18,8 +18,8 @@ export const SocialProof = () => {
                         <div className="text-neutral-400">Scripts ou Servidor</div>
                     </div>
                     <div>
-                        <div className="text-3xl font-bold text-yellow-400 mb-2">365</div>
-                        <div className="text-neutral-400">Dias de Acesso</div>
+                        <div className="text-3xl font-bold text-yellow-400 mb-2">Acesso</div>
+                        <div className="text-neutral-400">Vitalício</div>
                     </div>
                 </div>
             </div>

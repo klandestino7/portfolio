@@ -23,7 +23,7 @@ export const OfferSection = () => {
                         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-purple-500"></div>
                         <CardHeader>
                             <CardTitle className="text-2xl text-white">Curso Completo</CardTitle>
-                            <p className="text-neutral-400">Acesso por 365 dias</p>
+                            <p className="text-neutral-400">Acesso vitalício</p>
                         </CardHeader>
                         <CardContent className="space-y-6">
                             <div className="text-center">
@@ -50,7 +50,7 @@ export const OfferSection = () => {
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <Check className="w-5 h-5 text-green-400" />
-                                    <span>Acesso por 365 dias</span>
+                                    <span>Acesso vitalício </span>
                                 </li>
                             </ul>
 
