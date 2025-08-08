@@ -9,6 +9,7 @@ try {
 const nextConfig = {
   env: {
     NEXT_PUBLIC_FACEBOOK_PIXEL_ID: process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID,
+    NEXT_PUBLIC_GOOGLE_TAG_ID: process.env.NEXT_PUBLIC_GOOGLE_TAG_ID,
   },
   eslint: {
     ignoreDuringBuilds: true,
