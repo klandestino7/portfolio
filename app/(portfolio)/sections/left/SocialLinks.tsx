@@ -24,15 +24,15 @@ export const SocialLinks = () => {
                 </Button>
             </div>
             <div className="text-gray-400 text-sm">
-                <p>© by UIhub in Framer</p>
-                <div className="flex gap-4">
+                <p>© Direitos reservados a klandestino</p>
+                {/* <div className="flex gap-4">
                     <Link href="#" className="hover:text-white">
                         Licensing
                     </Link>
                     <Link href="#" className="hover:text-white">
                         404
                     </Link>
-                </div>
+                </div> */}
             </div>
         </div>
     )

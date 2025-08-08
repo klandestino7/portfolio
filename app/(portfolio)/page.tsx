@@ -48,10 +48,10 @@ export default function Portfolio() {
           <Projects />
 
           {/* Stack Section */}
-          <Stack />
+          {/* <Stack /> */}
 
           {/* Contact and Clients Sections */}
-          <ContactAndClients />
+          {/* <ContactAndClients /> */}
         </div>
       </div>
     </div>
