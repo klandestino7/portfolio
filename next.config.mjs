@@ -7,6 +7,9 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  env: {
+    NEXT_PUBLIC_FACEBOOK_PIXEL_ID: process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
