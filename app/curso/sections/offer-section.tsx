@@ -54,17 +54,19 @@ export const OfferSection = () => {
                                 </li>
                             </ul>
 
-                            <a href={process.env.CURSO_LINK} target="_blank">
-                                <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                                    QUERO APENAS O CURSO
-                                </Button>
-                            </a>
+                            <div>
+                                <a href={process.env.CURSO_LINK} target="_blank">
+                                    <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
+                                        QUERO APENAS O CURSO
+                                    </Button>
+                                </a>
+                            </div>
                         </CardContent>
                     </Card>
 
-                    <Card className="bg-neutral-800 border-neutral-700 relative overflow-hidden transform scale-105">
+                    <Card className="bg-neutral-800 border-neutral-700 relative transform scale-105">
                         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-500 to-emerald-500"></div>
-                        <Badge className="absolute -top-3 right-4 bg-green-500 text-white">RECOMENDADO</Badge>
+                        <Badge className="absolute -top-3 right-4 bg-green-500 text-white z-10">RECOMENDADO</Badge>
                         <CardHeader>
                             <CardTitle className="text-2xl text-white">Curso + Comunidade</CardTitle>
                             <p className="text-neutral-400">Acesso completo</p>
@@ -98,11 +100,13 @@ export const OfferSection = () => {
                                 </li>
                             </ul>
 
-                            <a href={process.env.CURSO_COMPLETO_LINK} target="_blank">
-                                <Button className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700">
-                                    QUERO O PACOTE COMPLETO
-                                </Button>
-                            </a>
+                            <div>
+                                <a href={process.env.CURSO_COMPLETO_LINK} target="_blank">
+                                    <Button className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700">
+                                        QUERO O PACOTE COMPLETO
+                                    </Button>
+                                </a>
+                            </div>
                         </CardContent>
                     </Card>
                 </div>

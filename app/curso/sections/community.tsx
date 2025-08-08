@@ -87,7 +87,7 @@ export const Community = () => {
                                 </div>
                             </div>
 
-                            <div className="bg-neutral-800 p-4 rounded-lg">
+                            {/* <div className="bg-neutral-800 p-4 rounded-lg">
                                 <div className="flex items-center space-x-3 mb-3">
                                     <Avatar>
                                         <AvatarImage src="/placeholder.svg?height=40&width=40" />
@@ -101,13 +101,15 @@ export const Community = () => {
                                 <p className="text-sm text-neutral-300">
                                     "A comunidade me ajudou a resolver um bug que estava me travando há dias. Valeu muito a pena!"
                                 </p>
-                            </div>
+                            </div> */}
 
-                            <a href={process.env.COMUNIDADE_LINK} target="_blank">
-                                <Button className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700">
-                                    QUERO FAZER PARTE DA COMUNIDADE
-                                </Button>
-                            </a>
+                            <div>
+                                <a href={process.env.COMUNIDADE_LINK} target="_blank">
+                                    <Button className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700">
+                                        QUERO FAZER PARTE DA COMUNIDADE
+                                    </Button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

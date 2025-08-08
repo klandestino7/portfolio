@@ -4,14 +4,18 @@ import { Badge } from "@/components/ui/badge"
 
 export const HeroSection = () => {
     return (
-        <section className="relative py-20 bg-gradient-to-br from-neutral-900 bg-black">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="relative bg-gradient-to-br from-neutral-900 bg-black">
+            <div className="bg-hero h-full w-full absolute bg-red top-0" />
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-40 relative z-10">
                 <div className="text-center mb-12">
                     <Badge className="bg-red-600 text-white mb-4 animate-pulse">🔴 AO VIVO - Últimas Vagas Disponíveis</Badge>
-                    <h1 className="text-4xl  font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                    <p
+                        className="text-4xl font-normal mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"
+                    > 
                         Do Zero ao Avançado no FIVEM/REDM
-                        <br />
-                        <span className="text-white md:text-6xl">Aprenda a Programar, Criar Scripts e Ganhar em Dólar</span>
+                    </p>
+                    <h1 className="text-4xl text-white md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                        Aprenda a Programar, Criar Scripts e Ganhar em Dólar
                     </h1>
                     <p className="text-xl text-neutral-300 mb-8 max-w-3xl mx-auto">
                         Nunca programou? Sem problema.
