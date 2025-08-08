@@ -10,6 +10,9 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_FACEBOOK_PIXEL_ID: process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID,
     NEXT_PUBLIC_GOOGLE_TAG_ID: process.env.NEXT_PUBLIC_GOOGLE_TAG_ID,
+    CURSO_COMPLETO_LINK: process.env.CURSO_COMPLETO_LINK,
+    COMUNIDADE_LINK: process.env.COMUNIDADE_LINK,
+    CURSO_LINK: process.env.CURSO_LINK,
   },
   eslint: {
     ignoreDuringBuilds: true,
