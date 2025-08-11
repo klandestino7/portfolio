@@ -8,9 +8,9 @@ export const AboutMe = () => {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h2 className="text-4xl font-bold mb-6">
-                            Quem Sou Eu e Por Que Você
+                            Quem sou eu e por que você
                             <br />
-                            <span className="text-blue-400">Deveria Me Escutar?</span>
+                            <span className="text-blue-400">deveria me escutar?</span>
                         </h2>
 
                         <div className="space-y-4 text-neutral-300">

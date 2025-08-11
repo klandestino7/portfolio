@@ -5,7 +5,7 @@ export const FinalCTA = () => {
     return (
         <section className="py-20 bg-gradient-to-r from-blue-900 to-purple-900">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h2 className="text-4xl font-bold mb-6">Não Deixe Essa Oportunidade Passar</h2>
+                <h2 className="text-4xl font-bold mb-6">Não deixe essa oportunidade passar</h2>
                 <p className="text-xl text-neutral-300 mb-8">
                     Esta é sua chance de dominar o desenvolvimento FiveM/RedM e criar servidores profissionais.
                     <br />

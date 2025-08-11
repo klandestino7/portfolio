@@ -12,9 +12,9 @@ export const OfferSection = () => {
                 <div className="mb-12">
                     <Badge className="bg-red-600 text-white mb-4 animate-pulse">🔥 OFERTA ESPECIAL </Badge>
                     <h2 className="text-4xl font-bold mb-6">
-                        Escolha o Plano Ideal
+                        Escolha o plano ideal
                         <br />
-                        <span className="text-blue-400">Para Você</span>
+                        <span className="text-blue-400">para você</span>
                     </h2>
                 </div>
 

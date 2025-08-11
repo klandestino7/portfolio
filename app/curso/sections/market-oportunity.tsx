@@ -20,7 +20,7 @@ export const MarketOportunity = () => {
                         <div className="text-sm text-neutral-400 mt-2">no mercado FiveM global</div>
                     </div>
                     <div className="bg-neutral-800/50 p-6 rounded-2xl text-center">
-                        <div className="text-4xl font-bold text-blue-400 mb-2">200k+</div>
+                        <div className="text-4xl font-bold text-blue-400 mb-2">20k+</div>
                         <div className="text-neutral-300">Servidores ativos</div>
                         <div className="text-sm text-neutral-400 mt-2">precisando de desenvolvedores</div>
                     </div>
@@ -33,7 +33,7 @@ export const MarketOportunity = () => {
 
                 <div className="bg-neutral-800 p-8 rounded-2xl">
                     <h3 className="text-2xl font-bold text-center mb-8 text-white">
-                        Oportunidades Reais no Mercado Internacional
+                        Oportunidades reais no mercado internacional
                     </h3>
 
                     <div className="grid md:grid-cols-2 gap-8">
@@ -41,9 +41,9 @@ export const MarketOportunity = () => {
                             <h4 className="text-xl font-semibold text-green-400">💼 Freelancing (Fiverr, Upwork, Discord)</h4>
                             <ul className="space-y-2 text-neutral-300">
                                 <li>• Script básico de loja: $80-150 USD</li>
-                                <li>• Sistema de empregos: $200-400 USD</li>
-                                <li>• Interface customizada: $150-300 USD</li>
-                                <li>• Servidor completo: $1000-5000 USD</li>
+                                <li>• Sistema de empregos: $20-40 USD</li>
+                                <li>• Interface customizada: $20-50 USD</li>
+                                <li>• Servidor completo: $300-2000 USD</li>
                             </ul>
                         </div>
 
@@ -52,7 +52,7 @@ export const MarketOportunity = () => {
                             <ul className="space-y-2 text-neutral-300">
                                 <li>• VIP mensal: $10-50 USD/player</li>
                                 <li>• Itens especiais: $5-100 USD</li>
-                                <li>• Carros exclusivos: $20-200 USD</li>
+                                <li>• Carros exclusivos: $20-100 USD</li>
                                 <li>• Casas/propriedades: $50-500 USD</li>
                             </ul>
                         </div>

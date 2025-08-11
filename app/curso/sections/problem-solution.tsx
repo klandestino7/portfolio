@@ -7,9 +7,9 @@ export const ProblemSolution = () => {
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold mb-6">
-                        Você Está Perdendo Oportunidades de
+                        Você está perdendo oportunidades de
                         <br />
-                        <span className="text-red-400">Ganhar em Dólar Todo Mês?</span>
+                        <span className="text-red-400">ganhar em dólar todo mês?</span>
                     </h2>
                     <p className="text-xl text-neutral-300 max-w-3xl mx-auto">
                         O mercado de FiveM movimenta milhões de dólares anualmente. Desenvolvedores experientes faturam entre
@@ -74,7 +74,7 @@ export const ProblemSolution = () => {
                 {/* Two Paths */}
                 <div className="mt-20">
                     <h3 className="text-3xl font-bold text-center mb-12">
-                        <span className="text-blue-400">2 Caminhos</span> Para Sua Independência Financeira
+                        <span className="text-blue-400">2 Caminhos</span> para sua independência financeira
                     </h3>
 
                     <div className="grid md:grid-cols-2 gap-8">

@@ -68,7 +68,7 @@ export const Community = () => {
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-bold text-white">Comunidade Ativa</h3>
-                                    <p className="text-neutral-300">Mais de 200 desenvolvedores conectados</p>
+                                    <p className="text-neutral-300">Comunidade em construção</p>
                                 </div>
                             </div>
 
