@@ -13,6 +13,16 @@ export const FAQ = () => {
                 <Accordion type="single" collapsible className="space-y-4">
                     <AccordionItem value="item-1" className="bg-neutral-800 rounded-lg px-6 border-0">
                         <AccordionTrigger className="text-white hover:text-blue-400">
+                            Sobre o que é o curso?
+                        </AccordionTrigger>
+                        <AccordionContent className="text-neutral-300">
+                            O curso ensina você a programar do zero, criando scripts profissionais para servidores FiveM e RedM. 
+                            Ao final, você estará pronto para vender seus trabalhos para donos de servidores, aproveitando oportunidades em plataformas como o fórum oficial do FiveM.
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-1" className="bg-neutral-800 rounded-lg px-6 border-0">
+                        <AccordionTrigger className="text-white hover:text-blue-400">
                             Preciso ter experiência prévia em programação?
                         </AccordionTrigger>
                         <AccordionContent className="text-neutral-300">
