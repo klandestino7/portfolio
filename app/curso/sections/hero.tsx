@@ -8,7 +8,7 @@ export const HeroSection = () => {
             <div className="bg-hero h-full w-full absolute bg-red top-0" />
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-40 relative z-10">
                 <div className="text-center mb-12">
-                    <Badge className="bg-red-600 text-white mb-4 animate-pulse">🔴 AO VIVO - Últimas Vagas Disponíveis</Badge>
+                    {/* <Badge className="bg-red-600 text-white mb-4 animate-pulse">🔴 AO VIVO - Últimas Vagas Disponíveis</Badge> */}
                     <p
                         className="text-4xl font-normal mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"
                     > 
