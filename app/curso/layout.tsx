@@ -1,4 +1,5 @@
 import FacebookPixel from '@/components/facebookPixel'
+import { Toaster } from '@/components/ui/sonner'
 import { FB_PIXEL_ID, GOOGLE_TAG } from '@/lib/pixel'
 import type { Metadata } from 'next'
 import Script from "next/script"
@@ -69,6 +70,7 @@ export default function RootLayout({
 
             <body>
                 {children}
+                <Toaster />
             </body>
         </html>
     )

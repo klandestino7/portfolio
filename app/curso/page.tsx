@@ -30,18 +30,18 @@ export default function FiveMCourseVSL() {
 
     useEffect(() => {
         setTimeout(() => {
-            toast("Oferta Especial de Lançamento ", {
-                description: "Somente HOJE (08/08) você garante 20% de desconto usando o cupom LANCAMENTO na finalização da compra.",
+            toast("Oferta Especial do Mês de Lançamento ", {
+                description: "Somente HOJE você garante 10% de desconto usando o cupom 10OFF na finalização da compra.",
                 action: {
                     label: "Copiar cupom",
                     onClick: () => {
-                        navigator.clipboard.writeText("LANCAMENTO")
+                        navigator.clipboard.writeText("10OFF")
                             .then(() => console.log("Cupom copiado"))
                             .catch(() => console.log("Erro ao copiar"));
                     },
                 },
             })
-        }, 5000)
+        }, 3000)
     }, [])
 
     return (
