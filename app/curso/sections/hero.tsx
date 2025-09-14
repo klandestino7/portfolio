@@ -15,15 +15,10 @@ export const HeroSection = () => {
                         Do Zero ao Avançado no FIVEM/REDM
                     </p>
                     <h1 className="text-4xl text-white md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                        Aprenda a Programar, Criar Scripts e Ganhar em Dólar
+                        Aprenda a programar, criar scripts e montar servidores competitivos.
                     </h1>
                     <p className="text-xl text-neutral-300 mb-8 max-w-3xl mx-auto">
-                        Nunca programou? Sem problema.
-                        No Dominando o FIVEM/REDM, você vai do básico ao avançado, 
-                        criando scripts profissionais para{" "} <span className="text-green-400 font-bold">vender no mercado internacional</span> ou montar seu {" "} <span className="text-green-400 font-bold">próprio servidor lucrativo</span>.
-                        
-                        Desenvolvedores FiveM ganham entre{" "} 
-                        <span className="text-yellow-400 font-bold">$500 - $3000 USD/mês</span> trabalhando de casa.
+                        Descubra como desenvolvedores transformam essas habilidades em {" "} <span className="text-green-400 font-bold">oportunidades</span> no mercado internacional.
                     </p>
                 </div>
 

@@ -7,13 +7,12 @@ export const ProblemSolution = () => {
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold mb-6">
-                        Você está perdendo oportunidades de
+                        Você está deixando oportunidades em
                         <br />
-                        <span className="text-red-400">ganhar em dólar todo mês?</span>
+                        <span className="text-red-400">dólar passarem?</span>
                     </h2>
                     <p className="text-xl text-neutral-300 max-w-3xl mx-auto">
-                        O mercado de FiveM movimenta milhões de dólares anualmente. Desenvolvedores experientes faturam entre
-                        $500-$3000 USD mensais.
+                        O mercado de FiveM movimenta milhões de dólares todos os anos. Muitos desenvolvedores já aproveitam esse espaço para gerar renda prestando serviços ou criando servidores.
                     </p>
                 </div>
 
@@ -49,15 +48,15 @@ export const ProblemSolution = () => {
                         <div className="space-y-4">
                             <div className="flex items-start space-x-3">
                                 <Check className="w-5 h-5 text-green-400 mt-1" />
-                                <p className="text-neutral-300">Aprenda a criar scripts que vendem por $50-500 USD</p>
+                                <p className="text-neutral-300">Aprenda a criar scripts com potencial de venda no mercado internacional</p>
                             </div>
                             <div className="flex items-start space-x-3">
                                 <Check className="w-5 h-5 text-green-400 mt-1" />
-                                <p className="text-neutral-300">Estratégias para atrair clientes internacionais</p>
+                                <p className="text-neutral-300">Estratégias para atrair clientes de fora do Brasil</p>
                             </div>
                             <div className="flex items-start space-x-3">
                                 <Check className="w-5 h-5 text-green-400 mt-1" />
-                                <p className="text-neutral-300">Como montar servidores que geram $1000+ USD/mês</p>
+                                <p className="text-neutral-300">Como estruturar servidores com modelos de monetização validados</p>
                             </div>
                             <div className="flex items-start space-x-3">
                                 <Check className="w-5 h-5 text-green-400 mt-1" />
@@ -65,7 +64,7 @@ export const ProblemSolution = () => {
                             </div>
                             <div className="flex items-start space-x-3">
                                 <Check className="w-5 h-5 text-green-400 mt-1" />
-                                <p className="text-neutral-300">Portfolio profissional que impressiona</p>
+                                <p className="text-neutral-300">Monte um portfólio profissional que impressiona</p>
                             </div>
                         </div>
                     </div>
@@ -74,7 +73,7 @@ export const ProblemSolution = () => {
                 {/* Two Paths */}
                 <div className="mt-20">
                     <h3 className="text-3xl font-bold text-center mb-12">
-                        <span className="text-blue-400">2 Caminhos</span> para sua independência financeira
+                        <span className="text-blue-400">2 Caminhos</span> para você atuar no mercado
                     </h3>
 
                     <div className="grid md:grid-cols-2 gap-8">
@@ -84,20 +83,12 @@ export const ProblemSolution = () => {
                                     <Code className="w-8 h-8 text-white" />
                                 </div>
                                 <h4 className="text-2xl font-bold text-white mb-2">Caminho 1: Freelancer</h4>
-                                <p className="text-blue-300">Venda Scripts e Serviços</p>
+                                <p className="text-blue-300">Venda scripts e serviços para clientes internacionais</p>
                             </div>
                             <ul className="space-y-3 text-neutral-300">
                                 <li className="flex items-center space-x-3">
                                     <Check className="w-5 h-5 text-green-400" />
-                                    <span>Scripts simples: $50-150 USD</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-                                    <Check className="w-5 h-5 text-green-400" />
-                                    <span>Scripts complexos: $200-500 USD</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-                                    <Check className="w-5 h-5 text-green-400" />
-                                    <span>Projetos completos: $1000+ USD</span>
+                                    <span>Exemplos de valores praticados no mercado: scripts simples, scripts avançados e até projetos completos</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <Check className="w-5 h-5 text-green-400" />
@@ -105,7 +96,7 @@ export const ProblemSolution = () => {
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <Check className="w-5 h-5 text-green-400" />
-                                    <span>Clientes do mundo todo</span>
+                                    <span>Atenda clientes do mundo todo</span>
                                 </li>
                             </ul>
                         </div>
@@ -116,16 +107,16 @@ export const ProblemSolution = () => {
                                     <Server className="w-8 h-8 text-white" />
                                 </div>
                                 <h4 className="text-2xl font-bold text-white mb-2">Caminho 2: Servidor Próprio</h4>
-                                <p className="text-purple-300">Crie e Monetize Seu Servidor</p>
+                                <p className="text-purple-300">Crie e monetize seu servidor com diferentes modelos já usados no mercado</p>
                             </div>
                             <ul className="space-y-3 text-neutral-300">
                                 <li className="flex items-center space-x-3">
                                     <Check className="w-5 h-5 text-green-400" />
-                                    <span>VIP/Donates: $500-2000 USD/mês</span>
+                                    <span>VIPs e doações da comunidade</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <Check className="w-5 h-5 text-green-400" />
-                                    <span>Loja de itens: $300-1000 USD/mês</span>
+                                    <span>Lojas de itens e conteúdos exclusivos</span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <Check className="w-5 h-5 text-green-400" />
@@ -133,11 +124,7 @@ export const ProblemSolution = () => {
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     <Check className="w-5 h-5 text-green-400" />
-                                    <span>Renda passiva 24/7</span>
-                                </li>
-                                <li className="flex items-center space-x-3">
-                                    <Check className="w-5 h-5 text-green-400" />
-                                    <span>Comunidade própria</span>
+                                    <span>Construção de comunidade própria</span>
                                 </li>
                             </ul>
                         </div>

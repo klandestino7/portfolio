@@ -19,10 +19,15 @@ export const Footer = () => {
                         </a>*/}
                         <a href="https://instagram.com/klandestinodev" target="_blank" className="hover:text-white">
                             Instagram
-                        </a> 
+                        </a>
                         <a href="mailto:contato@klandestino.dev" className="hover:text-white">
                             Suporte
                         </a>
+                    </div>
+
+                    <div className="pt-5 text-xs opacity-20">
+                        Os valores e exemplos apresentados são baseados em práticas comuns de mercado e em relatos de profissionais do setor. Não há garantia de ganhos financeiros. Os resultados dependem de fatores individuais como dedicação, experiência, portfólio e demanda.
+                        Este curso não é afiliado, patrocinado ou aprovado pela Rockstar Games ou pela Cfx.re. Marcas citadas apenas como referência.
                     </div>
                 </div>
             </div>

@@ -7,9 +7,9 @@ export const MarketOportunity = () => {
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold mb-6">
-                        O Mercado FiveM Está
+                        O Mercado FiveM
                         <br />
-                        <span className="text-green-400">Explodindo em 2024</span>
+                        <span className="text-green-400">está em expansão</span>
                     </h2>
                 </div>
 
@@ -25,13 +25,13 @@ export const MarketOportunity = () => {
                         <div className="text-sm text-neutral-400 mt-2">precisando de desenvolvedores</div>
                     </div>
                     <div className="bg-neutral-800/50 p-6 rounded-2xl text-center">
-                        <div className="text-4xl font-bold text-purple-400 mb-2">$500-3k</div>
-                        <div className="text-neutral-300">USD/mês potencial</div>
-                        <div className="text-sm text-neutral-400 mt-2">para desenvolvedores experientes</div>
+                        <div className="text-4xl font-bold text-purple-400 mb-2">Demanda crescente</div>
+                        <div className="text-neutral-300"> por scripts</div>
+                        <div className="text-sm text-neutral-400 mt-2">sistemas e customizações</div>
                     </div>
                 </div>
 
-                <div className="bg-neutral-800 p-8 rounded-2xl">
+                {/* <div className="bg-neutral-800 p-8 rounded-2xl">
                     <h3 className="text-2xl font-bold text-center mb-8 text-white">
                         Oportunidades reais no mercado internacional
                     </h3>
@@ -40,10 +40,10 @@ export const MarketOportunity = () => {
                         <div className="space-y-4">
                             <h4 className="text-xl font-semibold text-green-400">💼 Freelancing (Fiverr, Upwork, Discord)</h4>
                             <ul className="space-y-2 text-neutral-300">
-                                <li>• Script básico de loja: $80-150 USD</li>
-                                <li>• Sistema de empregos: $20-40 USD</li>
-                                <li>• Interface customizada: $20-50 USD</li>
-                                <li>• Servidor completo: $300-2000 USD</li>
+                                <li>• Criação de scripts sob demanda</li>
+                                <li>• Desenvolvimento de sistemas personalizados</li>
+                                <li>• Interfaces e melhorias visuais</li>
+                                <li>• Projetos completos de servidores</li>
                             </ul>
                         </div>
 
@@ -57,7 +57,7 @@ export const MarketOportunity = () => {
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     )
