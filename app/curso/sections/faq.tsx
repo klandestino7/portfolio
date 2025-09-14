@@ -70,7 +70,7 @@ export const FAQ = () => {
                         </AccordionContent>
                     </AccordionItem>
                     
-                    <AccordionItem value="item-5" className="bg-neutral-800 rounded-lg px-6 border-0">
+                    <AccordionItem value="item-6" className="bg-neutral-800 rounded-lg px-6 border-0">
                         <AccordionTrigger className="text-white hover:text-blue-400">Como funciona o pagamento?</AccordionTrigger>
                         <AccordionContent className="text-neutral-300">
                             Aceitamos cartão de crédito, boleto bancário e PIX. O pagamento é processado de forma segura e você
