@@ -120,7 +120,7 @@ export const OfferSection = () => {
 
                 <div className="text-center mt-6">
                     <p className="text-neutral-400 mb-4">🔒 Pagamento 100% seguro • Acesso imediato após a compra</p>
-                    {/* <p className="text-red-400 font-semibold">⚠️ Restam apenas 17 vagas para esta turma</p> */}
+                    <p className="text-neutral-400 mb-2">Compra 100% segura. Direito de arrependimento de 7 dias garantido pelo Código de Defesa do Consumidor.</p>
                 </div>
             </div>
         </section>

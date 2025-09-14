@@ -64,6 +64,13 @@ export const FAQ = () => {
                     </AccordionItem>
 
                     <AccordionItem value="item-5" className="bg-neutral-800 rounded-lg px-6 border-0">
+                        <AccordionTrigger className="text-white hover:text-blue-400">Posso desistir da compra?</AccordionTrigger>
+                        <AccordionContent className="text-neutral-300">
+                            Sim. Você tem até 7 dias corridos após a compra para solicitar o reembolso total, sem precisar justificar, conforme o Código de Defesa do Consumidor.
+                        </AccordionContent>
+                    </AccordionItem>
+                    
+                    <AccordionItem value="item-5" className="bg-neutral-800 rounded-lg px-6 border-0">
                         <AccordionTrigger className="text-white hover:text-blue-400">Como funciona o pagamento?</AccordionTrigger>
                         <AccordionContent className="text-neutral-300">
                             Aceitamos cartão de crédito, boleto bancário e PIX. O pagamento é processado de forma segura e você
