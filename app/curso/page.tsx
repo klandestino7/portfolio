@@ -28,21 +28,21 @@ import { toast } from "sonner"
 
 export default function FiveMCourseVSL() {
 
-    useEffect(() => {
-        setTimeout(() => {
-            toast("Oferta Especial do Mês de Lançamento ", {
-                description: "Somente HOJE você garante 10% de desconto usando o cupom 10OFF na finalização da compra.",
-                action: {
-                    label: "Copiar cupom",
-                    onClick: () => {
-                        navigator.clipboard.writeText("10OFF")
-                            .then(() => console.log("Cupom copiado"))
-                            .catch(() => console.log("Erro ao copiar"));
-                    },
-                },
-            })
-        }, 3000)
-    }, [])
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         toast("Oferta Especial do Mês de Lançamento ", {
+    //             description: "Somente HOJE você garante 10% de desconto usando o cupom 10OFF na finalização da compra.",
+    //             action: {
+    //                 label: "Copiar cupom",
+    //                 onClick: () => {
+    //                     navigator.clipboard.writeText("10OFF")
+    //                         .then(() => console.log("Cupom copiado"))
+    //                         .catch(() => console.log("Erro ao copiar"));
+    //                 },
+    //             },
+    //         })
+    //     }, 3000)
+    // }, [])
 
     return (
         <div className="min-h-screen bg-neutral-900 text-white">
