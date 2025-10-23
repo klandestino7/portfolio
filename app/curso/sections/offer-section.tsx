@@ -27,7 +27,8 @@ export const OfferSection = () => {
                         </CardHeader>
                         <CardContent className="space-y-6">
                             <div className="text-center">
-                                <div className="text-4xl font-bold text-white mb-2">R$ 297,90</div>
+                                <div className="text-neutral-400 line-through text-lg mb-1">De R$ 297,90</div>
+                                <div className="text-4xl font-bold text-green-400 mb-2">Por R$ 219,00</div>
                                 <div className="text-sm text-neutral-400">Pagamento único</div>
                             </div>
 
@@ -73,7 +74,8 @@ export const OfferSection = () => {
                         </CardHeader>
                         <CardContent className="space-y-6">
                             <div className="text-center">
-                                <div className="text-4xl font-bold text-white mb-2">R$ 495,80</div>
+                                <div className="text-neutral-400 line-through text-lg mb-1">De R$ 497,00</div>
+                                <div className="text-4xl font-bold text-green-400 mb-2">Por R$ 398,00</div>
                                 <div className="text-sm text-neutral-400">Pagamento único</div>
                             </div>
 

@@ -103,6 +103,12 @@ export const Community = () => {
                                 </p>
                             </div> */}
 
+                            <div className="text-center mb-4">
+                                <div className="text-neutral-400 line-through text-lg mb-1">De R$ 197,00</div>
+                                <div className="text-3xl font-bold text-green-400 mb-2">Por R$ 128,00</div>
+                                <div className="text-sm text-neutral-400">Pagamento único</div>
+                            </div>
+
                             <div>
                                 <a href={process.env.COMUNIDADE_LINK} target="_blank">
                                     <Button className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700">
