@@ -554,7 +554,7 @@ const CommunitySection: React.FC = () => {
                 </div>
                 <p className="text-zinc-500 text-xs mb-6">Pagamento único</p>
 
-                <Link href="">
+                <Link href={process.env.NEXT_PUBLIC_COMUNIDADE_LINK ?? ""}>
                   <button className="w-full py-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold transition-colors flex items-center justify-center gap-2">
                     QUERO FAZER PARTE <ChevronRight size={18} />
                   </button>
@@ -644,10 +644,11 @@ const PricingCard: React.FC = () => {
           ))}
         </div>
 
-        <button className="w-full py-5 px-3 rounded-xl uppercase bg-white text-black font-black text-lg hover:bg-zinc-200 transition-all shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)] active:scale-95">
-          Quero apenas o curso
-        </button>
-
+        <Link href={process.env.NEXT_PUBLIC_CURSO_LINK ?? ""}>
+          <button className="w-full py-5 px-3 rounded-xl uppercase bg-white text-black font-black text-lg hover:bg-zinc-200 transition-all shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)] active:scale-95">
+            Quero apenas o curso
+          </button>
+        </Link>
         <p className="text-zinc-500 text-xs mt-6 flex items-center justify-center gap-2">
           <Shield size={12} /> Garantia incondicional de 7 dias
         </p>
@@ -698,7 +699,7 @@ const PricingCardWithCommunity: React.FC = () => {
           ))}
         </div>
         
-        <Link href={""}>
+        <Link href={process.env.NEXT_PUBLIC_CURSO_COMPLETO_LINK ?? ""}>
           <button className="w-full py-5 px-3 rounded-xl uppercase bg-white text-black font-black text-lg hover:bg-zinc-200 transition-all shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)] active:scale-95">
             Quero o pacote completo
           </button>
