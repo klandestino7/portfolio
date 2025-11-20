@@ -140,7 +140,7 @@ const Hero: React.FC = () => {
   const y1 = useTransform(scrollY, [0, 500], [0, 200]);
 
   return (
-    <section className=" relative min-h-[90vh] flex flex-col justify-center items-center overflow-hidden bg-zinc-950 text-white pt-20">
+    <section className=" relative min-h-[90vh] flex flex-col justify-center items-center overflow-hidden bg-zinc-950 text-white md:pt-20">
       <div className="absolute inset-0 bg-hero via-transparent to-zinc-950"></div>
       <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 z-10"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-transparent to-zinc-950 z-20"></div>
@@ -199,7 +199,7 @@ const Hero: React.FC = () => {
       </div>
 
       <motion.div
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-zinc-500 flex flex-col items-center gap-2 z-50"
+        className="absolute bottom-3 md:bottom-10 left-1/2 -translate-x-1/2 text-zinc-500 flex flex-col items-center gap-2 z-50"
         animate={{ opacity: [0.5, 1, 0.5] }}
         transition={{ duration: 2, repeat: Infinity }}
       >
@@ -615,10 +615,10 @@ const PricingCard: React.FC = () => {
           Oferta por tempo limitado
         </div> */}
 
-        <h2 className="text-white font-medium uppercase tracking-wider text-lg mb-3">Curso + Comunidade</h2>
+        <h2 className="text-white font-medium uppercase tracking-wider text-lg mb-3">Curso Completo</h2>
         <h3 className="text-zinc-400 font-light tracking-wider text-sm mb-2">Acesso Vitalício</h3>
         <div className="flex items-center justify-center gap-1 mb-2">
-          <span className="text-xl font-bold line-through text-zinc-500 self-end">De R$ 497,90</span>
+          <span className="text-xl font-bold line-through text-zinc-500 self-end">De R$ 297,90</span>
         </div>
         <div className="flex items-center justify-center gap-1 mb-8">
           <span className="text-2xl text-zinc-500 mt-2">R$</span>
