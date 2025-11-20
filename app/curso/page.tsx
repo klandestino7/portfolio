@@ -771,7 +771,6 @@ const App: React.FC = () => {
       <BentoGrid />
       <DetailedCurriculum />
       <Instructor />
-      <CommunitySection />
       <section id="prices" className="py-24 px-4 relative">
         <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10"></div>
         <div className="max-w-4xl mx-auto text-center mb-12 relative z-10">
@@ -783,6 +782,7 @@ const App: React.FC = () => {
           <PricingCardWithCommunity />
         </div>
       </section>
+      <CommunitySection />
       <FAQ />
       <Footer />
     </div>
