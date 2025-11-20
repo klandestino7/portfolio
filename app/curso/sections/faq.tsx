@@ -7,17 +7,29 @@ export const FAQ = () => {
         <section className="py-20 bg-neutral-800/50">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold mb-6">Perguntas Frequentes</h2>
+                    <h2 className="text-4xl font-bold mb-6">Perguntas Frequentes sobre o Curso de FiveM e RedM</h2>
                 </div>
 
                 <Accordion type="single" collapsible className="space-y-4">
-                    <AccordionItem value="item-1" className="bg-neutral-800 rounded-lg px-6 border-0">
+                    <AccordionItem value="item-0" className="bg-neutral-800 rounded-lg px-6 border-0">
                         <AccordionTrigger className="text-white hover:text-blue-400">
-                            Sobre o que é o curso?
+                            Como criar scripts no FiveM e RedM?
                         </AccordionTrigger>
                         <AccordionContent className="text-neutral-300">
-                            O curso ensina você a programar do zero, criando scripts profissionais para servidores FiveM e RedM. 
-                            Ao final, você estará pronto para vender seus trabalhos para donos de servidores, aproveitando oportunidades em plataformas como o fórum oficial do FiveM.
+                            Este curso de FiveM e RedM ensina você a criar scripts profissionais do zero. Você aprenderá programação Lua,
+                            desenvolvimento de recursos customizados, integração com banco de dados e todas as técnicas necessárias para
+                            desenvolver scripts de qualidade profissional para servidores FiveM e RedM.
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-1" className="bg-neutral-800 rounded-lg px-6 border-0">
+                        <AccordionTrigger className="text-white hover:text-blue-400">
+                            O que vou aprender no curso de FiveM e RedM?
+                        </AccordionTrigger>
+                        <AccordionContent className="text-neutral-300">
+                            O curso ensina você a programar do zero, criando scripts profissionais para servidores FiveM e RedM.
+                            Aprenderá Lua, desenvolvimento de mods, sistemas de economia, integração com banco de dados e muito mais.
+                            Ao final, você estará pronto para vender seus trabalhos ou criar seu próprio servidor lucrativo.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -43,13 +55,13 @@ export const FAQ = () => {
 
                     <AccordionItem value="item-3" className="bg-neutral-800 rounded-lg px-6 border-0">
                         <AccordionTrigger className="text-white hover:text-blue-400">
-                            Qual a diferença entre os dois planos?
+                            Qual a diferença entre os planos do curso?
                         </AccordionTrigger>
                         <AccordionContent className="text-neutral-300">
-                            O plano básico (R$ 297,90) inclui apenas o curso com acesso vitalício. O plano completo (R$ 495,80)
-                            inclui o curso e também acesso permanente à Comunidade Master Developers no discord, onde você terá suporte direto,
-                            conteú permanente à Comunidade Master Developers, onde você terá suporte direto, conteúdos exclusivos,
-                            networking com outros desenvolvedores e muito mais.
+                            O plano "Curso Completo" (de R$ 297,90 por R$ 219,00) inclui apenas o curso com acesso vitalício e todo conteúdo
+                            para aprender a criar scripts de FiveM e RedM. O plano "Curso + Comunidade" (de R$ 497,00 por R$ 398,00)
+                            inclui tudo do curso básico mais acesso permanente à Comunidade Master Developers no Discord, onde você terá
+                            suporte direto, conteúdos exclusivos, networking com outros desenvolvedores FiveM/RedM e projetos especiais.
                         </AccordionContent>
                     </AccordionItem>
 

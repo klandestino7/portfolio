@@ -11,14 +11,14 @@ export const HeroSection = () => {
                     {/* <Badge className="bg-red-600 text-white mb-4 animate-pulse">🔴 AO VIVO - Últimas Vagas Disponíveis</Badge> */}
                     <p
                         className="text-4xl font-normal mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"
-                    > 
-                        Do Zero ao Avançado no FIVEM/REDM
+                    >
+                        Curso de FiveM e RedM - Do Zero ao Avançado
                     </p>
                     <h1 className="text-4xl text-white md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                        Aprenda a programar, criar scripts e montar servidores competitivos.
+                        Aprenda Como Criar Scripts Profissionais de FiveM e RedM
                     </h1>
                     <p className="text-xl text-neutral-300 mb-8 max-w-3xl mx-auto">
-                        Descubra como desenvolvedores transformam essas habilidades em {" "} <span className="text-green-400 font-bold">oportunidades</span> no mercado internacional.
+                        Tutorial completo para programar, desenvolver mods e montar servidores competitivos. Descubra como desenvolvedores transformam essas habilidades em {" "} <span className="text-green-400 font-bold">renda de $500 a $3000 USD/mês</span> trabalhando de casa.
                     </p>
                 </div>
 

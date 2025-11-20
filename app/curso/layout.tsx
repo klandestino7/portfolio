@@ -1,27 +1,77 @@
-import FacebookPixel from '@/components/facebookPixel'
 import { Toaster } from '@/components/ui/sonner'
 import { FB_PIXEL_ID, GOOGLE_TAG } from '@/lib/pixel'
 import type { Metadata } from 'next'
 import Script from "next/script"
 
 export const metadata: Metadata = {
-    title: 'Curso Dominando o FiveM/RedM',
-    description: 'Criado por klandestino, prenda a criar scripts profissionais de FiveM e RedM para vender no mercado internacional ou abrir seu próprio servidor lucrativo. Desenvolvedores FiveM ganham entre $500 - $3000 USD/mês trabalhando de casa.',
+    title: 'Curso de FiveM e RedM - Aprenda a Criar Scripts Profissionais | Tutorial Completo',
+    description: 'Curso completo de FiveM e RedM. Aprenda como criar scripts profissionais, desenvolver mods e servidores lucrativos. Tutorial passo a passo para iniciantes e avançados. Criado por Klandestino, desenvolvedor com anos de experiência. Ganhe de $500 a $3000 USD/mês.',
+    keywords: [
+        'curso fivem',
+        'curso redm',
+        'curso de fivem',
+        'curso de redm',
+        'como criar script no fivem',
+        'como criar script no redm',
+        'tutorial fivem',
+        'tutorial redm',
+        'tutorial de fivem',
+        'aprenda fivem',
+        'aprenda redm',
+        'desenvolver fivem',
+        'desenvolver redm',
+        'script fivem',
+        'script redm',
+        'programação fivem',
+        'programação redm',
+        'servidor fivem',
+        'servidor redm',
+        'mod fivem',
+        'mod redm',
+        'fivem brasileiro',
+        'redm brasileiro',
+        'curso programação fivem',
+        'curso programação redm',
+    ],
+    authors: [{ name: 'Klandestino' }],
+    creator: 'Klandestino',
+    publisher: 'Klandestino',
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
+    },
+    alternates: {
+        canonical: 'https://curso.klandestino.dev',
+    },
     openGraph: {
-        title: 'Curso Dominando o FiveM/RedM',
-        description: 'Criado por klandestino, prenda a criar scripts profissionais de FiveM e RedM para vender no mercado internacional ou abrir seu próprio servidor lucrativo. Desenvolvedores FiveM ganham entre $500 - $3000 USD/mês trabalhando de casa.',
-        url: "https://curso.klandestino.dev",
-        siteName: "Klandestino",
+        title: 'Curso de FiveM e RedM - Aprenda a Criar Scripts Profissionais',
+        description: 'Curso completo de FiveM e RedM. Aprenda como criar scripts profissionais, desenvolver mods e servidores lucrativos. Tutorial passo a passo criado por Klandestino. Desenvolvedores FiveM ganham entre $500 - $3000 USD/mês trabalhando de casa.',
+        url: 'https://curso.klandestino.dev',
+        siteName: 'Klandestino - Curso FiveM/RedM',
         images: [
             {
-                url: "https://klandestino.dev/thumbnail.jpg", // caminho da sua thumbnail
+                url: 'https://klandestino.dev/thumbnail.jpg',
                 width: 1200,
                 height: 630,
-                alt: "Thumbnail do Curso",
+                alt: 'Curso de FiveM e RedM - Tutorial Completo de Criação de Scripts',
             },
         ],
-        locale: "pt_BR",
-        type: "website",
+        locale: 'pt_BR',
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Curso de FiveM e RedM - Tutorial Completo',
+        description: 'Aprenda a criar scripts profissionais de FiveM e RedM. Curso completo passo a passo.',
+        images: ['https://klandestino.dev/thumbnail.jpg'],
+        creator: '@klandestino',
     },
 }
 
@@ -69,6 +119,81 @@ export default function RootLayout({
             /></noscript>
 
             <body>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            '@context': 'https://schema.org',
+                            '@type': 'Course',
+                            name: 'Curso de FiveM e RedM - Do Zero ao Avançado',
+                            description: 'Curso completo para aprender a criar scripts profissionais de FiveM e RedM, desenvolver mods e montar servidores lucrativos.',
+                            provider: {
+                                '@type': 'Organization',
+                                name: 'Klandestino',
+                                sameAs: 'https://klandestino.dev',
+                            },
+                            offers: [
+                                {
+                                    '@type': 'Offer',
+                                    category: 'Curso Completo',
+                                    price: '219.00',
+                                    priceCurrency: 'BRL',
+                                    availability: 'https://schema.org/InStock',
+                                    url: 'https://curso.klandestino.dev',
+                                },
+                                {
+                                    '@type': 'Offer',
+                                    category: 'Curso + Comunidade',
+                                    price: '398.00',
+                                    priceCurrency: 'BRL',
+                                    availability: 'https://schema.org/InStock',
+                                    url: 'https://curso.klandestino.dev',
+                                },
+                                {
+                                    '@type': 'Offer',
+                                    category: 'Comunidade Master Developers',
+                                    price: '128.00',
+                                    priceCurrency: 'BRL',
+                                    availability: 'https://schema.org/InStock',
+                                    url: 'https://curso.klandestino.dev',
+                                },
+                            ],
+                            educationalLevel: 'Beginner to Advanced',
+                            inLanguage: 'pt-BR',
+                            coursePrerequisites: 'Conhecimentos básicos de programação são úteis, mas não obrigatórios',
+                            hasCourseInstance: {
+                                '@type': 'CourseInstance',
+                                courseMode: 'online',
+                                courseWorkload: 'P25H',
+                            },
+                            about: [
+                                {
+                                    '@type': 'Thing',
+                                    name: 'FiveM',
+                                },
+                                {
+                                    '@type': 'Thing',
+                                    name: 'RedM',
+                                },
+                                {
+                                    '@type': 'Thing',
+                                    name: 'Desenvolvimento de Scripts',
+                                },
+                                {
+                                    '@type': 'Thing',
+                                    name: 'Programação de Servidores',
+                                },
+                            ],
+                            aggregateRating: {
+                                '@type': 'AggregateRating',
+                                ratingValue: '4.9',
+                                reviewCount: '150',
+                                bestRating: '5',
+                                worstRating: '1',
+                            },
+                        }),
+                    }}
+                />
                 {children}
                 <Toaster />
             </body>

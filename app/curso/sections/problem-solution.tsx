@@ -7,12 +7,12 @@ export const ProblemSolution = () => {
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold mb-6">
-                        Você está deixando oportunidades em
+                        Como Criar Scripts de FiveM/RedM e
                         <br />
-                        <span className="text-red-400">dólar passarem?</span>
+                        <span className="text-red-400">Ganhar em Dólar</span>
                     </h2>
                     <p className="text-xl text-neutral-300 max-w-3xl mx-auto">
-                        O mercado de FiveM movimenta milhões de dólares todos os anos. Muitos desenvolvedores já aproveitam esse espaço para gerar renda prestando serviços ou criando servidores.
+                        O mercado de FiveM e RedM movimenta milhões de dólares todos os anos. Aprenda a desenvolver scripts profissionais e descubra como transformar suas habilidades em renda prestando serviços ou criando servidores lucrativos.
                     </p>
                 </div>
 
