@@ -14,6 +14,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+            <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+      <link rel="apple-touch-icon" href="/favicon.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="/favicon.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="/favicon.png" />
+      <link rel="apple-touch-icon" sizes="152x152" href="/favicon.png" />
       <body>{children}</body>
     </html>
   )
