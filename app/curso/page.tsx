@@ -140,14 +140,15 @@ const Hero: React.FC = () => {
   const y1 = useTransform(scrollY, [0, 500], [0, 200]);
 
   return (
-    <section className="relative min-h-[90vh] flex flex-col justify-center items-center overflow-hidden bg-zinc-950 text-white pt-20">
-      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20"></div>
-      <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-transparent to-zinc-950 z-10"></div>
+    <section className=" relative min-h-[90vh] flex flex-col justify-center items-center overflow-hidden bg-zinc-950 text-white pt-20">
+      <div className="absolute inset-0 bg-hero via-transparent to-zinc-950"></div>
+      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-transparent to-zinc-950 z-20"></div>
 
       {/* Glow Effects */}
       <motion.div style={{ y: y1 }} className="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-violet-600/10 rounded-full blur-[120px]" />
 
-      <div className="z-20 text-center px-4 max-w-5xl mx-auto relative">
+      <div className="z-50 text-center px-4 max-w-5xl mx-auto relative">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -198,11 +199,11 @@ const Hero: React.FC = () => {
       </div>
 
       <motion.div
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-zinc-500 flex flex-col items-center gap-2"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-zinc-500 flex flex-col items-center gap-2 z-50"
         animate={{ opacity: [0.5, 1, 0.5] }}
         transition={{ duration: 2, repeat: Infinity }}
       >
-        <span className="text-[10px] uppercase tracking-widest">Scroll</span>
+        <span className="text-[10px] uppercase tracking-widest">Role para baixo</span>
         <MousePointer2 className="w-5 h-5" />
       </motion.div>
     </section>
