@@ -618,11 +618,11 @@ const PricingCard: React.FC = () => {
         <h2 className="text-white font-medium uppercase tracking-wider text-lg mb-3">Curso Completo</h2>
         <h3 className="text-zinc-400 font-light tracking-wider text-sm mb-2">Acesso Vitalício</h3>
         <div className="flex items-center justify-center gap-1 mb-2">
-          <span className="text-xl font-bold line-through text-zinc-500 self-end">De R$ 297,90</span>
+          <span className="text-xl font-bold line-through text-zinc-500 self-end">De R$ 317,90</span>
         </div>
         <div className="flex items-center justify-center gap-1 mb-8">
           <span className="text-2xl text-zinc-500 mt-2">R$</span>
-          <span className="text-6xl font-bold text-white">218</span>
+          <span className="text-6xl font-bold text-white">297</span>
           <span className="text-xl text-zinc-500 self-end mb-2">,90</span>
         </div>
 
@@ -678,7 +678,7 @@ const PricingCardWithCommunity: React.FC = () => {
         </div>
         <div className="flex items-center justify-center gap-1 mb-8">
           <span className="text-2xl text-zinc-500 mt-2">R$</span>
-          <span className="text-6xl font-bold text-white">397</span>
+          <span className="text-6xl font-bold text-white">425</span>
           <span className="text-xl text-zinc-500 self-end mb-2">,90</span>
         </div>
 
