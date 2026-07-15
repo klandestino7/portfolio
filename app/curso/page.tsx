@@ -622,7 +622,7 @@ const PricingCard: React.FC = () => {
         </div>
         <div className="flex items-center justify-center gap-1 mb-8">
           <span className="text-2xl text-zinc-500 mt-2">R$</span>
-          <span className="text-6xl font-bold text-white">297</span>
+          <span className="text-6xl font-bold text-white">257</span>
           <span className="text-xl text-zinc-500 self-end mb-2">,90</span>
         </div>
 
