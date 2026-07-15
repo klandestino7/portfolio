@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-
 body {
-  font-family: "Manrope", "Manrope Placeholder", sans-serif;
+  font-family: var(--font-manrope), sans-serif;
 }
 
 @layer utilities {
@@ -96,7 +94,7 @@ body {
 }
 
 button, h1, h2, h3, h4, h5, h6 {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--font-plus-jakarta-sans), sans-serif;
   font-weight: 800 !important;
 }
 
@@ -112,4 +110,51 @@ button, h1, h2, h3, h4, h5, h6 {
     pointer-events: none;
 
     z-index: 0 !important; 
+}
+
+.portfolio-prose {
+  @apply space-y-4 text-sm leading-7 text-zinc-300 sm:text-base;
+}
+
+.portfolio-prose h1,
+.portfolio-prose h2,
+.portfolio-prose h3 {
+  @apply mt-8 text-white;
+}
+
+.portfolio-prose h1 {
+  @apply text-3xl;
+}
+
+.portfolio-prose h2 {
+  @apply text-2xl;
+}
+
+.portfolio-prose h3 {
+  @apply text-xl;
+}
+
+.portfolio-prose p a,
+.portfolio-prose li a {
+  @apply text-white underline decoration-zinc-600 underline-offset-4;
+}
+
+.portfolio-prose pre {
+  @apply overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-4 text-sm text-zinc-100;
+}
+
+.portfolio-prose code {
+  @apply rounded bg-white/10 px-1.5 py-0.5 text-[0.9em] text-zinc-100;
+}
+
+.portfolio-prose pre code {
+  @apply bg-transparent p-0;
+}
+
+.portfolio-prose ul {
+  @apply list-disc space-y-2 pl-5;
+}
+
+.portfolio-prose img {
+  @apply w-full rounded-2xl border border-white/10 object-cover;
 }
